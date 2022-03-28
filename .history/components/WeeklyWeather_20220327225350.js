@@ -94,6 +94,7 @@ export default function WeeklyWeather({ weeklyWeather, timezone ,rainfall}) {
                     <div>
                       <span style={{paddingLeft:"50px"}}>RainFall</span>
                       <span style={{paddingLeft:"50px"}}>
+                        
                         {RainFallValue===0?0:RainFallValue.toFixed(3)}mm
                       </span>
                     </div>
