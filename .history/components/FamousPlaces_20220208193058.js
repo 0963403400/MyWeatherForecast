@@ -3,31 +3,31 @@ import Image from "next/image";
 import Link from "next/link";
 
 // import images
-import HaNoi from "../public/images/HaNoi.jpeg";
-import HaTay from "../public/images/HaTay.jpeg";
-import HaTinh from "../public/images/HaTinh.jpeg";
-import HaGiang from "../public/images/HaGiang.jpeg";
+import LondonImage from "../public/images/london.jpg";
+import ParisImage from "../public/images/paris.jpg";
+import TokyoImage from "../public/images/tokyo.jpg";
+import NewYorkImage from "../public/images/new-york.jpg";
 
 const places = [
   {
-    name: "Thủ Đô Hà Nội",
-    image: HaNoi,
-    url: "/location/Thủ-Đô-Hà-Nội-1581129",
+    name: "London",
+    image: LondonImage,
+    url: "/location/london-2643743",
   },
   {
-    name: "Tỉnh Hà Giang",
-    image: HaGiang,
-    url: "/location/Tỉnh-Hà-Giang-1581030",
+    name: "Paris",
+    image: ParisImage,
+    url: "/location/paris-2968815",
   },
   {
-    name: "Tỉnh Hà Tây",
-    image: HaTay,
-    url: "/location/Tỉnh-Hà-Tây-1581019",
+    name: "Tokyo",
+    image: TokyoImage,
+    url: "/location/tokyo-1850147",
   },
   {
-    name: "Tỉnh Hà Tĩnh",
-    image: HaTinh,
-    url: "/location/Tỉnh-Hà-Tĩnh-1580700",
+    name: "New York",
+    image: NewYorkImage,
+    url: "/location/new-york-city-5128581",
   },
 ];
 

@@ -11,22 +11,22 @@ import HaGiang from "../public/images/HaGiang.jpeg";
 const places = [
   {
     name: "Thủ Đô Hà Nội",
-    image: HaNoi,
+    image: LondonImage,
     url: "/location/Thủ-Đô-Hà-Nội-1581129",
   },
   {
     name: "Tỉnh Hà Giang",
-    image: HaGiang,
+    image: ParisImage,
     url: "/location/Tỉnh-Hà-Giang-1581030",
   },
   {
     name: "Tỉnh Hà Tây",
-    image: HaTay,
+    image: TokyoImage,
     url: "/location/Tỉnh-Hà-Tây-1581019",
   },
   {
     name: "Tỉnh Hà Tĩnh",
-    image: HaTinh,
+    image: NewYorkImage,
     url: "/location/Tỉnh-Hà-Tĩnh-1580700",
   },
 ];
